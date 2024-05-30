@@ -1,0 +1,40 @@
+nav{
+    background-color:lightgray;
+    height:50px;
+}
+.inline-block{
+    display:inline-block;
+}
+.nav-tab{
+    background-color:gray;
+    color:white;
+    width:100px;
+    height:100%;
+}
+
+.left{
+    width:29%;
+    background-color:blue;
+    float:left;
+    height:1000px;
+}
+.right{
+    width:70%;
+    background-color:cyan;
+    float:left;
+    height:1000px;
+}
+
+#profile-pic{
+    /* height:29%; */
+    height:calc(29% - 100px);
+    background-color: pink;
+    padding:50px;
+    text-align:center;
+}
+#pet-info{
+    background-color:orange;
+    /* height:70%; */
+    height:calc(70% - 40px);
+    padding:20px;
+}
